@@ -10,4 +10,6 @@ const mapDispatchToProps = (dispatch) => ({
   addStoreItem: item => dispatch(addSingleItem(item))
 })
 
+//comment
+
 export default connect(mapStateToProps, mapDispatchToProps)(itemList);
